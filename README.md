@@ -10,14 +10,14 @@ We use the python package [great_expecations](#https://greatexpectations.io) to 
 `$ pip install -r ./requirements.txt`  
 
 ### Virtualenv
-`$ python3 -m venv pydata-workshop`  
+`$ python3 -m venv great-expectations-workshop`  
 
 *Windows:*  
-`$ tutorial-env\Scripts\activate.bat`  
+`$ great-expectations-workshop\Scripts\activate.bat`  
 *MacOS/Unix:*  
-`$ source tutorial-env/bin/activate`  
+`$ source great-expectations-workshop/bin/activate`  
 
 ### Conda
-`$ conda create -n pydata-workshop pip -y`  
-`$ conda activate pydata-workshop`  
+`$ conda create -n great-expectations-workshop pip -y`  
+`$ conda activate great-expectations-workshop`  
 `$ pip install -r requirements.txt`  
