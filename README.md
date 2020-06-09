@@ -12,7 +12,7 @@ Welcome to our github page for the pydata workshop 15-06-2020!
 `$ python3 -m venv pydata-workshop`  
 Windows: 
   - `$ tutorial-env\Scripts\activate.bat`  
-MacOS/Unix: 
+MacOS/Unix:  
   - `$ source tutorial-env/bin/activate`  
 
 ### Conda
