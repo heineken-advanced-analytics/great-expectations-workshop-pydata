@@ -1,7 +1,8 @@
-# great-expectation-workshop-pydata
+# PyData Workshop: Keep the Data Flowing
+Welcome to our GitHub repository for the PyData workshop!
 
 ## Intro
-Welcome to our github page for the pydata workshop 15-06-2020!
+We use the python package [great_expecations](#https://greatexpectations.io) to create expectations for our ingress data. This workshop teaches you the basics on how to implement and use this package.
 
 ## Installation
 
