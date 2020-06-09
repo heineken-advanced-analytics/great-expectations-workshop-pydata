@@ -7,7 +7,7 @@ We use the python package [great_expecations](#https://greatexpectations.io) to 
 ## Installation
 
 ### Simple
-`$ pip install -r ./requirements.txt`  
+`$ python -m pip install -r ./requirements.txt`  
 
 ### Virtualenv
 `$ python3 -m venv great-expectations-workshop`  
@@ -17,7 +17,9 @@ We use the python package [great_expecations](#https://greatexpectations.io) to 
 *MacOS/Unix:*  
 `$ source great-expectations-workshop/bin/activate`  
 
+`$ python -m pip install -r requirements.txt`
+
 ### Conda
 `$ conda create -n great-expectations-workshop pip -y`  
 `$ conda activate great-expectations-workshop`  
-`$ pip install -r requirements.txt`  
+`$ python -m pip install -r requirements.txt`  
