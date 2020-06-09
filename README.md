@@ -11,9 +11,10 @@ We use the python package [great_expecations](#https://greatexpectations.io) to 
 
 ### Virtualenv
 `$ python3 -m venv pydata-workshop`  
-**Windows:**  
+
+*Windows:*  
 `$ tutorial-env\Scripts\activate.bat`  
-**MacOS/Unix:**  
+*MacOS/Unix:*  
 `$ source tutorial-env/bin/activate`  
 
 ### Conda
