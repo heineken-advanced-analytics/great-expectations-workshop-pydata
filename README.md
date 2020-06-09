@@ -10,7 +10,7 @@ Welcome to our github page for the pydata workshop 15-06-2020!
 
 ### Virtualenv
 `$ python3 -m venv pydata-workshop`  
-Windows: 
+Windows:  
   - `$ tutorial-env\Scripts\activate.bat`  
 MacOS/Unix:  
   - `$ source tutorial-env/bin/activate`  
