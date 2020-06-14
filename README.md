@@ -49,3 +49,23 @@ open `workshop-pydata-part1.ipynb`
 
 `$ create_expectations init`
 
+
+## Dataset
+
+The original dataset can be found through (this link){https://www.kaggle.com/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region}. The dataset used here is an adapted version of the original version from Kaggle (reduced and simplified, hopefully).
+
+#### Columns
+- Id - id associated with a particular weather station
+- Elevation - self explanatory
+- Lat - Latitude
+- Lon - Longitude
+- Code - Station number
+- City - City associated with the station
+- Timestamp - time when the record was made
+- Precip - hourly amount of precipitation in milimiters
+- Air_pres - air pressure in hPa
+- Solar_rad - kJ / m2 solar radiation
+- Temp - temperature during the past hour
+- Rel_humidity - relative humidity (percentage)
+- Wind_speed - speed of wind in meters per second
+
