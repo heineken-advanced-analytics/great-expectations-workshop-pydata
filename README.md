@@ -79,7 +79,7 @@ by adding this entry to your great_expectations.yml:
 
 ## Dataset
 
-The original dataset can be found through (this link)(https://www.kaggle.com/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region). The dataset used here is an adapted version of the original version from Kaggle (reduced and simplified, hopefully).
+The original dataset can be found through [this link](https://www.kaggle.com/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region). The dataset used here is an adapted version of the original version from Kaggle (reduced and simplified, hopefully).
 
 #### Columns
 - Id - id associated with a particular weather station
