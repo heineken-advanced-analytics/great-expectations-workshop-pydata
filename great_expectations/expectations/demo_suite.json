@@ -1,0 +1,62 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "demo_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "id",
+          "elevation",
+          "lat",
+          "lon",
+          "code",
+          "city",
+          "timestamp",
+          "precip",
+          "air_pres",
+          "solar_rad",
+          "temp",
+          "rel_humid",
+          "wind_speed"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "temp",
+        "max_value": 60,
+        "min_value": -30
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "lon",
+        "max_value": -34,
+        "min_value": -74,
+        "mostly": 0.95
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "weather_brasil_201301",
+          "datasource": "weather_data",
+          "path": "/Users/boonzj01/development/demo/great-expectations-workshop-pydata/great_expectations/../data/weather_brasil_201301.csv"
+        },
+        "batch_markers": null,
+        "batch_parameters": null,
+        "citation_date": "20200614T114657.536565Z",
+        "comment": "New suite added via CLI"
+      }
+    ],
+    "great_expectations.__version__": "0.11.4"
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "weather_data.subdir_reader.weather_brasil_201301.BasicDatasetProfiler",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": null,
+        "min_value": 0
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "id",
+        "type_list": [
+          "BIGINT",
+          "BYTEINT",
+          "DECIMAL",
+          "INT",
+          "INTEGER",
+          "IntegerType",
+          "LongType",
+          "SMALLINT",
+          "TINYINT",
+          "int"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "id",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "id",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "id",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "elevation",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "elevation",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "elevation",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "elevation",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "elevation",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "elevation",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "lat",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "lat",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "lat",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "lat",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "lat",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "lat",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "lon",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "lon",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "lon",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "lon",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "lon",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "lon",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "code",
+        "type_list": [
+          "CHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "code",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "code",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "code",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "code",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "code",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "code",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "city",
+        "type_list": [
+          "CHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "city",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "city",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "city",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "city",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "city",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "city",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "timestamp",
+        "type_list": [
+          "CHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "timestamp",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "timestamp",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "timestamp",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "timestamp",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "timestamp",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "timestamp",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "precip",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "precip",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "precip",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "precip",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "precip",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "precip",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "air_pres",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "air_pres",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "air_pres",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "air_pres",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "air_pres",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "solar_rad",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "solar_rad",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "solar_rad",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "solar_rad",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "solar_rad",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "temp",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "temp",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "temp",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "temp",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "temp",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "temp",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "rel_humid",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "rel_humid",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "rel_humid",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "rel_humid",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "rel_humid",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "rel_humid",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "wind_speed",
+        "type_list": [
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "wind_speed",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "wind_speed",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "wind_speed",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "wind_speed",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "wind_speed",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "BasicDatasetProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "weather_brasil_201301",
+        "datasource": "weather_data",
+        "path": "/Users/boonzj01/development/demo/great-expectations-workshop-pydata/great_expectations/../data/weather_brasil_201301.csv"
+      },
+      "created_at": 1592135047.6023731,
+      "created_by": "BasicDatasetProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "weather_brasil_201301",
+          "datasource": "weather_data",
+          "path": "/Users/boonzj01/development/demo/great-expectations-workshop-pydata/great_expectations/../data/weather_brasil_201301.csv"
+        },
+        "batch_markers": {
+          "ge_load_time": "20200614T114406.993069Z",
+          "pandas_data_fingerprint": "43fac3a20cea015c1157d1aef9b28c22"
+        },
+        "batch_parameters": null,
+        "citation_date": "20200614T114408.293749Z",
+        "comment": "BasicDatasetProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "air_pres": {
+        "description": ""
+      },
+      "city": {
+        "description": ""
+      },
+      "code": {
+        "description": ""
+      },
+      "elevation": {
+        "description": ""
+      },
+      "id": {
+        "description": ""
+      },
+      "lat": {
+        "description": ""
+      },
+      "lon": {
+        "description": ""
+      },
+      "precip": {
+        "description": ""
+      },
+      "rel_humid": {
+        "description": ""
+      },
+      "solar_rad": {
+        "description": ""
+      },
+      "temp": {
+        "description": ""
+      },
+      "timestamp": {
+        "description": ""
+      },
+      "wind_speed": {
+        "description": ""
+      }
+    },
+    "great_expectations.__version__": "0.11.4",
+    "notes": {
+      "content": [
+        "_To add additional notes, edit the <code>meta.notes.content</code> field in the appropriate Expectation json file._"
+      ],
+      "format": "markdown"
+    }
+  }
+}
