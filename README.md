@@ -36,9 +36,31 @@ $ python -m pip install -r requirements.txt
 $ python -m ipykernel install --name great-expectations-workshop
 ```
 
-## Create basic project
+## Instructions for part 2
 
-### Initialization
+### Initializing new Great Expectations project through the CLI
 
-`$ create_expectations init`
+```
+great_expectations init  
+First, Great Expectations will create a new directory:  
+    OK to proceed? [Y/n]: Y  
+  
+Would you like to configure a Datasource? [Y/n]: Y  
+  
+What data would you like Great Expectations to connect to?
+  1. Files on a filesystem
+  
+What are you processing your files with?  
+  1. Pandas
+  
+Enter the path (relative or absolute) of the root directory where the data files are stored.
+  ./data
+  
+Give your new Datasource a short name.
+  [data__dir]: weather_data
 
+Great Expectations will now add a new Datasource 'weather_data' to your deployment, by adding this entry to your great_expectations.yml:
+  Would you like to proceed? [Y/n]: Y
+
+Would you like to profile new Expectations for a single data asset within your new Datasource? [Y/n]: n
+```
