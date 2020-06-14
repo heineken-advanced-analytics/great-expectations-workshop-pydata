@@ -36,9 +36,9 @@ $ python -m pip install -r requirements.txt
 $ python -m ipykernel install --name great-expectations-workshop
 ```
 
-## Create basic project
+## Instructions for part 2
 
-### Initialization
+### Initializing new Great Expectations project through the CLI
 
 ```
 great_expectations init  
