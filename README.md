@@ -38,8 +38,10 @@ $ python -m ipykernel install --name great-expectations-workshop
 
 
 ## Setting up for part 1
-`$ cd <repository directory>`
-`$ jupyter notebook`
+```
+$ cd <repository directory>`
+$ jupyter notebook
+```
 open `workshop-pydata-part1.ipynb`
 
 
