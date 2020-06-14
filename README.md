@@ -53,7 +53,7 @@ if you are working with a virtual environment, change your kernel to `great-expe
 ### Initializing new Great Expectations project through the CLI
 
 ```
-great_expectations init  
+$ great_expectations init  
 First, Great Expectations will create a new directory:  
     OK to proceed? [Y/n]: Y  
   
