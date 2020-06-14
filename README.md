@@ -71,7 +71,8 @@ Enter the path (relative or absolute) of the root directory where the data files
 Give your new Datasource a short name.
   [data__dir]: weather_data
 
-Great Expectations will now add a new Datasource 'weather_data' to your deployment, by adding this entry to your great_expectations.yml:
+Great Expectations will now add a new Datasource 'weather_data' to your deployment,  
+by adding this entry to your great_expectations.yml:
   Would you like to proceed? [Y/n]: Y
 
 
