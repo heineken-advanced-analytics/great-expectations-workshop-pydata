@@ -37,7 +37,7 @@ $ python -m ipykernel install --name great-expectations-workshop
 ```
 
 
-## Setting up for part 1
+## Instructions for part 1
 ```
 $ cd <repository directory>`
 $ jupyter notebook
