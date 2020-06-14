@@ -7,19 +7,22 @@ We use the python package [great_expecations](#https://greatexpectations.io) to 
 ## Installation
 
 ### Simple
-`$ python -m pip install -r ./requirements.txt`  
+`$ python -m pip install -r ./requirements.txt`
 
 ### Virtualenv
-`$ python3 -m venv great-expectations-workshop`  
+`$ python3 -m venv great-expectations-workshop`
 
 *Windows:*  
-`$ great-expectations-workshop\Scripts\activate.bat`  
+`$ great-expectations-workshop\Scripts\activate.bat`
 *MacOS/Unix:*  
-`$ source great-expectations-workshop/bin/activate`  
+`$ source great-expectations-workshop/bin/activate`
 
 `$ python -m pip install -r requirements.txt`
 
+`$ python -m ipykernel install --name great-expectations-workshop`
+
 ### Conda
-`$ conda create -n great-expectations-workshop pip -y`  
-`$ conda activate great-expectations-workshop`  
-`$ python -m pip install -r requirements.txt`  
+`$ conda create -n great-expectations-workshop pip -y`
+`$ conda activate great-expectations-workshop`
+`$ python -m pip install -r requirements.txt`
+`$ python -m ipykernel install --name great-expectations-workshop`
