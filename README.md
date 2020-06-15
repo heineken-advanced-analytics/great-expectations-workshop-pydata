@@ -49,6 +49,14 @@ if you are working with a virtual environment, change your kernel to `great-expe
 
 
 ## Instructions for part 2
+### Opening the notebook.
+```
+$ cd <repository directory>
+$ jupyter notebook
+```
+open `workshop-pydata-part2.ipynb`
+
+in another terminal run `great_expectations suite edit demo_suite`
 
 ### Initializing new Great Expectations project through the CLI
 
