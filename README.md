@@ -1,5 +1,5 @@
-# PyData Workshop: Keep the Data Flowing
-Welcome to our GitHub repository for the PyData workshop!
+# Great Expectations Workshop: Keep the Data Flowing
+Welcome to our GitHub repository for the Great Expectations workshop!
 
 ## Intro
 We use the python package [great_expecations](#https://greatexpectations.io) to create expectations for our ingress data. This workshop teaches you the basics on how to implement and use this package.
